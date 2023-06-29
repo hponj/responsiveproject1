@@ -1,0 +1,103 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
+
+div.main-container{
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    padding: 2cm;
+    object-fit: cover;
+    margin: 30px auto;
+    box-shadow: 2px 2px 15px 1px black;
+}
+
+ .but{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+ }
+
+ div.contact{
+    display: flex;
+ }
+
+
+ div.socia img{
+   margin:14px;
+ }
+
+ div.card{
+
+   width: 250px;
+   box-shadow: 0 0 10px black;
+   border-radius: 10px;
+   margin: 0 auto;
+   text-align: center;
+ 
+ }
+
+
+
+ div.profile{
+
+    text-align: center;
+ }
+
+
+
+ /* responsive*/
+ @media screen and (max-width: 600px){
+    div.body{
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .name{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    div.main-container{
+    width: 330px ;
+    background-color: rgb(255, 255, 255);
+    padding: 2cm;
+    object-fit: cover;
+    margin:auto;
+    box-shadow: 2px 2px 15px 1px black;
+    }
+
+    .card{
+    background-color:rgb(255, 255, 255);
+    width: 100px;
+    margin-right: 20px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px 1px black; 
+    }
+
+    .card h2{
+      font-size: 30px;
+    }
+
+    .card p{
+      font-size: 20px;
+    }
+
+    .text p{
+      white-space: pre;
+    }
+    
+
+    
+
+ }
+ /*responsive*/
